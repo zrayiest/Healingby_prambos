@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="115dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Profile Page"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_custom_secondary_variant"
+                android:padding="10dp"
+                android:text="Nama"
+                android:textColor="@color/my_custom_on_primary" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_custom_secondary_variant"
+                android:padding="10dp"
+                android:text="Email"
+                android:textColor="@color/my_custom_on_primary" />
+
+            <TextView
+                android:id="@+id/txtJoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_custom_secondary_variant"
+                android:padding="10dp"
+                android:text="Tanggal Join"
+                android:textColor="@color/my_custom_on_primary" />
+
+            <TextView
+                android:id="@+id/txtFav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_custom_secondary_variant"
+                android:padding="10dp"
+                android:text="Total Favorite"
+                android:textColor="@color/my_custom_on_primary" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

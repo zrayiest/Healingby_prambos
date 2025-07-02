@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemExprole"
+        android:icon="@drawable/baseline_explore_24"
+        android:title="Exprole" />
+    <item
+        android:id="@+id/itemFavorite"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/itemProfile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+</menu>

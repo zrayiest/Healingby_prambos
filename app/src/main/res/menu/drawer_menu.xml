@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/itemChange"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/itemOut"
+            android:title="Sign Out" />
+    </group>
+</menu>
